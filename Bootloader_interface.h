@@ -120,7 +120,7 @@ typedef struct{
 	boolean InterruptModeEn;
 }Bootloader_ConfigType;
 
-//BootloaderSection		//Write the following function onto the bootloader section in flash
+BootloaderSection		//Write the following function onto the bootloader section in flash
 void Bootloader(void);
 
 AppSection				//Write the following function onto the text section in flash
